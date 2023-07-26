@@ -2,18 +2,18 @@ package es8_1;
 import java.util.Random;
 
 public class Main{
-	private final static int SAXC = 300;// massimo numero di cittadini
-	private final static int SAXS=20; // capienza max sala
+	private final static int MAXC = 300;// massimo numero di cittadini
+	private final static int MAXS=20; // capienza max sala
 	
 	public static void main(String[] args) {
 		
 		 Random r = new Random(System.currentTimeMillis());
-		 int NC = r.nextInt(SAXC);
+		 int NC = r.nextInt(MAXC);
 		 Cittadini[] V = new Cittadini[NC];
-		 Sala S = new Sala(SAXS);
+		 Sala S = new Sala(MAXS);
 		 int i;
 	
-		 System.out.println("la capienza massima della sala è di "+SAXS+" posti \n\n");
+		 System.out.println("la capienza massima della sala Ã¨ di "+MAXS+" posti \n\n");
 
 		 for	(i=0; i<NC; i++)
 			 V[i] = new Cittadini(S,i,r);
