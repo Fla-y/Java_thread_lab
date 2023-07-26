@@ -53,6 +53,6 @@ public class Sala {
 	
 	public synchronized void stampa()
 	{ 	
-		System.out.println("Chiusura Sala, esito donazione:\n capi di abbigliamento " +p_abiti + "\ngiocattoli: " + giochi +"\ndenaro: " + denaro+ "\ninoltre nella sala sono entrate " + donatori + " persone");
+		System.out.println("Chiusura Sala, esito donazione:\ncapi di abbigliamento " +p_abiti + "\ngiocattoli: " + giochi +"\ndenaro: " + denaro+ "\ninoltre nella sala sono entrate " + donatori + " persone");
 	}
 	}
