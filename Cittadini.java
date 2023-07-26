@@ -12,7 +12,7 @@ public class Cittadini extends Thread
 		   this.id=i;
 		   this.r=R;
 	}
-
+        @Override
 	public void run() {
 		boolean entrato=false;
 		int volte=0;
